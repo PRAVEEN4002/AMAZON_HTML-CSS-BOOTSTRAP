@@ -1,0 +1,65 @@
+body {
+  background-color: #eaeded;
+}
+/*Main navigation bars*/
+.item-hover {
+  border: 1px solid black;
+  padding: 2px;
+  border-radius: 5px;
+  margin: 0;
+  max-width: 220px;
+  white-space: nowrap;
+}
+
+.item-hover:hover {
+  border: 1px solid white;
+}
+
+.navtext-light {
+  opacity: 0.8;
+  display: block;
+}
+
+.fa-caret-down {
+  opacity: 0.8;
+  font-size: 14px;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.fa-shopping-cart {
+  font-size: 35px;
+}
+/*sub navigation bar is here */
+.bg-grey {
+  background-color: #232f3e;
+}
+
+.fa-sliders-h {
+  color: white;
+  font-size: 12px;
+  padding: 0;
+}
+
+.sub_item-hover {
+  border: 1px solid #232f3e;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 5px 0 6px 0;
+  padding: 4px 8px;
+  white-space: nowrap;
+}
+
+.sub_item-hover:hover {
+  border-color: white;
+  border-radius: 5px;
+}
+
+.nav-right {
+  float: right;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}

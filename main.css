@@ -1,0 +1,154 @@
+/*carousel starts here */
+.carousel-gradient::before {
+  content: "";
+  background-image: linear-gradient(to top, #eaeded, transparent);
+  height: 50%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+/*Products starts her */
+.products-card {
+  width: 340px;
+  height: 420px;
+  background-color: white;
+  margin-bottom: 20px;
+  z-index: 1;
+  margin: 0.5rem;
+}
+
+.product-card-heading {
+  font-size: 21px;
+  height: 22%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+  color: black;
+  padding: 4%;
+}
+.product {
+  width: 44%;
+  height: 32%;
+  margin-left: 4%;
+  float: left;
+  margin-bottom: 3%;
+}
+.product_image {
+  width: 100%;
+  height: 80%;
+}
+.product_caption {
+  font-size: 14px;
+  line-height: 1.2;
+}
+.product-card-caption {
+  font-size: 14px;
+  color: rgb(112, 69, 153);
+  text-decoration: none;
+  padding-left: 20px;
+  text-align: start;
+}
+/*sign in card in products */
+.card-signin {
+  width: 340px;
+  height: 420px;
+  background-color: transparent;
+  margin-bottom: 20px;
+  background-color:transparent;
+  padding: 0;
+  z-index: 1;
+  margin: 0.5rem;
+}
+.card-signin-btn {
+  background-color: white;
+  width: 100%;
+  height: fit-content;
+}
+.btn-center {
+  text-align: center;
+  color: black;
+  width: 80%;
+}
+.card-signin-img {
+  width: 100%;
+  justify-content: center;
+  height: 58%;
+  margin-top: 6%;
+}
+
+.product-card2-image {
+  width: 90%;
+  height: 65%;
+  margin-left: 5%;
+}
+.alignposition {
+  margin-top: -320px;
+}
+
+/* to properly place cards and footer on all device */
+@media screen and (max-width: 1420px) {
+  .alignposition {
+    margin-top: -240px;
+  }
+}
+@media screen and (max-width: 1202px) {
+  .alignposition {
+    margin-top: -180px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .alignposition {
+    margin-top: -40px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .alignposition {
+    margin-top: -20px;
+  }
+}
+/*bottom slider compnent */
+.slider {
+    position: relative;
+    background-color: white;
+    margin-bottom: 20px;
+    width: 92%;
+    margin-left: 3%;
+    margin-right: 5%;
+  }
+  
+  .sd-hd {
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 18px;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  
+  .sd-it {
+    width: 13%;
+    margin-left: 1%;
+    float: left;
+    height: fit-content;
+  }
+  .carousel-control-icon-slider {
+    color: black;
+    opacity: 1.8;
+    font-size: 60px;
+    background-color: bisque;
+  
+  .carousel-control-icon-slider:hover {
+    color: darkblue;
+  }
+  
+/* bottom sign in compnent */
+.signbtn {
+  background-color: white;
+  line-height: 30px;
+}
+
+.btn-warn {
+  width: 250px;
+  color: black;
+  font-weight: 600;
+}
